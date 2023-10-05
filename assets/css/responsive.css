@@ -1,0 +1,32 @@
+@media (min-width: 0px) and (max-width: 767px) {
+
+    /* common code start */
+    .latest-blog .content-block .img-fluid {
+        max-width: 60%;
+    }
+
+    .content-poster {
+        text-align: center;
+    }
+
+    .content-poster .img-fluid {
+        max-width: 60%;
+    }
+
+    .content-block a {
+        display: block;
+    }
+
+    /* common code end */
+}
+
+@media (min-width: 768px) {
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+
+    .dropdown>.dropdown-toggle:active {
+        /*Without this, clicking will make it sticky*/
+        pointer-events: none;
+    }
+}
